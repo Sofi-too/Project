@@ -41,7 +41,13 @@ body{
     text-align: center;
     margin-top: -30px;
 }
+@font-face {
+	font-family: 'Dinosaur Icons'; 
+	src: local('Dinosaur Icons'),
+		url(icons/Dinosaur\ Icons.otf); 
+}
 .icon-min{
+    font-family: 'Dinosaur Icons';
     font-size: 30px;
     margin: 35px;
     color: dimgray;
@@ -85,16 +91,19 @@ body{
 .four, .eight, .fourteen{
     background-color: gray;
 }
+.all{
+    padding: 10px;
+}
 /* Текст в блоке */
 .four p{
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-top: 5px;
 }
 .text p{
     font-size: 24px;
     margin-left: 5px;
-    margin-top: -30px;
+    margin-top: -10px;
     text-align: left;
 }
 .eight{
@@ -153,6 +162,7 @@ ul{
     background-color: #ebc36c;
 }
 .left{
+    font-family: 'Dinosaur Icons';
     font-size: 30px;
     grid-column: 1/2;
     grid-row: 1/2;
