@@ -1,0 +1,100 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    width: 90%;
+}
+.hat{
+    width: auto;
+}
+.logo{
+    text-align: right;
+    font-size: 50px;
+}
+.block{
+    height: 35px;
+    width: 100%;
+}
+.slogan{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 50px;
+}
+.two, .three, .four, .eight, .nine, .ten, .eleven, .twelve, .thirteen {
+    padding: 8px;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #ebc36c;
+    color: white;
+}
+.one, .five, .six, .seven, .fourteen{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 600px;
+}
+.all{
+    padding: 30px;
+}
+.four p{
+    text-align: left;
+}
+.four .text p{
+    font-size: 15px;
+}
+.eight{
+    padding: 0px;
+    height: 500px;
+}
+.left{
+    font-family: 'Dinosaur Icons';
+    font-size: 75px;
+}
+@font-face {
+	font-family: 'Dinosaur Icons'; 
+	src: local('Dinosaur Icons'),
+		url(icons/Dinosaur\ Icons.otf); 
+}
+.right{
+    justify-content: left;
+}
+.right p{
+    font-size: 60px;
+    margin: 0;
+    margin-left: 35px;
+}
+.three, .nine{
+    background-color: #c2c9a0;
+}
+.nine{
+    justify-content: left;
+    font-size: 35px;
+}
+.ten{
+    color: black;
+    background-color: white;
+}
+li{
+    margin-bottom: 5px;
+}
+.center{
+    margin-left: 30px;
+    column-count: auto;
+}
+.fourteen .bottom{
+    height: 150px;
+    bottom: 170px;
+}
+.fourteen .bottom p{
+    font-size: 30px;
+}
